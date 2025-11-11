@@ -1,0 +1,38 @@
+// ...existing code...
+# Node modules
+node_modules/
+chrome-extension/node_modules/
+
+# Environment files
+.env
+.env.*            # ignore all env variants (e.g. .env.local)
+
+# Build / output
+dist/
+build/
+out/
+chrome-extension/dist/
+
+# Vite / cache
+.vite/
+.cache/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
+
+# Misc
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# ...existing code...
